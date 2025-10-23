@@ -1,7 +1,4 @@
-if (args.length === 0) {
-  console.log("No argument");
-} else if (args.length === 1) {
-  console.log("Argument found");
-} else {
-  console.log("Arguments found");
-}
+const firstArg = process.argv[2];
+const secondArg = process.argv[3];
+
+console.log(firstArg + " is " + secondArg);
